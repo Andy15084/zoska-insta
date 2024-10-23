@@ -1,16 +1,9 @@
-// src/app/auth/prihlasenie/page.tsx
+// src/app/auth/registracia/page.tsx
 
-//import Typography from "@mui/material/Typography";
-//import  Container  from "@mui/material/Container";
-import NonAuthHomeView from "../../../sections/NonAuthHomeView"
+import SignUpView from "@/sections/SignUpView";
 
+export const metadata = { title: "Registrácia užívateľa | ZoškaSnap" };
 
-export const metadata = { title: "Zoznam profilov | SnapZoška" };
-
-export default function SignIn() {
-
-  return(
-    <NonAuthHomeView/>
-
-  );
+export default function SignUpPage() {
+  return <SignUpView />;
 }
