@@ -15,3 +15,5 @@ export default async function HomePage() {
   return session ? <AuthHomeView session={session} /> : <NonAuthHomeView />;
 }
 
+
+
